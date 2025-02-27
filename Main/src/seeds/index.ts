@@ -5,13 +5,17 @@ import { getRandomUsername, getRandomFriends } from './data.js';
 
 const seedDatabase = async () => {
   try {
-    await connection();
+    const db = await connection();
     console.log('Connected to database');
 
+    if (!db.db) {
+      throw new Error('Database connection is not established.');
+    }
+
     // Delete the collections if they exist
-    const userCheck = await mongoose.connection.db.listCollections({ name: 'users' }).toArray();
+    const userCheck = await db.db.listCollections({ name: 'users' }).toArray();
     if (userCheck.length) {
-      await mongoose.connection.db.dropCollection('users');
+      await db.db.dropCollection('users');
     }
 
     const users = [];
