@@ -1,7 +1,10 @@
 import mongoose from 'mongoose';
 import connection from '../config/connection.js';
 import { User } from '../models/index.js';
+import cleanDB from './cleanDB.js';
 import { getRandomUsername } from './data.js';
+
+
 
 const seedDatabase = async () => {
   try {
@@ -12,6 +15,7 @@ const seedDatabase = async () => {
       throw new Error('Database connection is not established.');
     }
 
+    await cleanDB();
     // Delete the collections if they exist
     const userCheck = await db.db.listCollections({ name: 'users' }).toArray();
     if (userCheck.length) {

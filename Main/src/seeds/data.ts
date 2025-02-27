@@ -1,6 +1,5 @@
 const usernames = [
-    'Muthu', 'Priya', 'Shivu', 'Anshu', 'Raj', 'Rahul', 'Sara', 'Sarath',
-    'Surya', 'Sai', 'Sathya', 'Sathish', 'Sathvik', 'Sathya'
+    'Muthu', 'Priya', 'Shivu', 'Anshu'
   ];
   
   // Get a random item given an array
