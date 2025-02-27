@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import connection from '../config/connection.js';
 import { User } from '../models/index.js';
-import { getRandomUsername, getRandomFriends } from './data.js';
+import { getRandomUsername } from './data.js';
 
 const seedDatabase = async () => {
   try {
@@ -24,7 +24,7 @@ const seedDatabase = async () => {
       users.push({
         username: getRandomUsername(),
         email: `${getRandomUsername().toLowerCase()}@example.com`,
-        friends: getRandomFriends(3),
+        // friends: getRandomFriends(3),
       });
     }
 

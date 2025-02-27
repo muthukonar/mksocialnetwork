@@ -10,13 +10,13 @@ const usernames = [
   const getRandomUsername = () => getRandomArrItem(usernames);
   
   // Generate random friends array
-  const getRandomFriends = (count: number) => {
-    const friends = new Set<string>();
-    while (friends.size < count) {
-      friends.add(getRandomUsername());
-    }
-    return Array.from(friends);
-  };
+//   const getRandomFriends = (count: number) => {
+//     const friends = new Set<string>();
+//     while (friends.size < count) {
+//       friends.add(getRandomUsername());
+//     }
+//     return Array.from(friends);
+//   };
   
-  export { getRandomUsername, getRandomFriends };
+  export { getRandomUsername };
   
