@@ -1,3 +1,10 @@
+// import mongoose from 'mongoose';
+
+// mongoose.connect('mongodb://127.0.0.1:27017/mksocialnetworkdb');
+
+// export default mongoose.connection;
+
+
 import mongoose from 'mongoose';
 
 const db = async (): Promise<typeof mongoose.connection> =>{
