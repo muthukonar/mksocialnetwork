@@ -7,6 +7,6 @@ import friendRoutes from './friendRoutes.js';
 
 router.use('/users', userRoutes);
 router.use('/thoughts', thoughtRoutes);
-router.use('/friends', friendRoutes);
+router.use('/users', friendRoutes);
 
 export default router;

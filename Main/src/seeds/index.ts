@@ -84,7 +84,7 @@ const seedDatabase = async () => {
     const users = [];
     const thoughts = getRandomThoughts(10); 
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 3; i++) {
       const username = getRandomUsername(); 
       users.push({
         username: username,
