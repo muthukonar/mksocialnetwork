@@ -20,6 +20,7 @@ const userSchema = new Schema<IUser>(
       type: String,
       required: true,
       unique: true,
+      match: [/.+@.+\..+/, 'Please fill a valid email address'],
     },
     friends: [
         {
