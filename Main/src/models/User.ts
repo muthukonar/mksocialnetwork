@@ -21,16 +21,16 @@ const userSchema = new Schema<IUser>(
       required: true,
       unique: true,
     },
+    friends: [
+        {
+          type: Schema.Types.ObjectId,
+          ref: 'User',
+        },
+      ],
     thoughts: [
       {
         type: Schema.Types.ObjectId,
         ref: 'Thought',
-      },
-    ],
-    friends: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: 'User',
       },
     ],
   },
@@ -49,3 +49,4 @@ userSchema.virtual('friendCount').get(function () {
 const User = model('User', userSchema);
 
 export default User;
+
