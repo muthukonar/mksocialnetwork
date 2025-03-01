@@ -48,6 +48,7 @@ Test using insomnia API for CURD operations of USER, FRIENDS, THOUGHTS, REACTION
 
 ## Video
 
+https://drive.google.com/file/d/12ulnaAWLHC2YWy_Yikvax2x5VjFhjVEW/view?usp=sharing
 
 
 ## Screenshots
