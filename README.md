@@ -47,8 +47,12 @@ Test and provide feedbacks
 Test using insomnia API for CURD operations of USER, FRIENDS, THOUGHTS, REACTIONS
 
 ## Video
-
+video link for all scenarios:-
 https://drive.google.com/file/d/12ulnaAWLHC2YWy_Yikvax2x5VjFhjVEW/view?usp=sharing
+
+video link for BONUS: Remove a user's associated thoughts when deleted.:-
+https://drive.google.com/file/d/1h0mhiezOwmIDIjvgVTrcAf0oPaVsyN17/view?usp=sharing
+
 
 
 ## Screenshots 
