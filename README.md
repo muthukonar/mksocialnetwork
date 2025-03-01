@@ -51,7 +51,9 @@ Test using insomnia API for CURD operations of USER, FRIENDS, THOUGHTS, REACTION
 https://drive.google.com/file/d/12ulnaAWLHC2YWy_Yikvax2x5VjFhjVEW/view?usp=sharing
 
 
-## Screenshots
+## Screenshots 
+All scenarios captured in below screenshots.
+
 !["Screenshot1”](./Main/src/assets/screenshots/SS1.png )
 !["Screenshot2”](./Main/src/assets/screenshots/SS2.png )
 !["Screenshot3”](./Main/src/assets/screenshots/SS3.png )
@@ -86,6 +88,16 @@ https://drive.google.com/file/d/12ulnaAWLHC2YWy_Yikvax2x5VjFhjVEW/view?usp=shari
 !["Screenshot32”](./Main/src/assets/screenshots/SS32.png )
 !["Screenshot33”](./Main/src/assets/screenshots/SS33.png )
 
+
+BONUS: Remove a user's associated thoughts when deleted.
+
+!["Screenshot34”](./Main/src/assets/screenshots/SS34.png )
+!["Screenshot35”](./Main/src/assets/screenshots/SS35.png )
+!["Screenshot36”](./Main/src/assets/screenshots/SS36.png )
+!["Screenshot37”](./Main/src/assets/screenshots/SS37.png )
+!["Screenshot38”](./Main/src/assets/screenshots/SS38.png )
+!["Screenshot39”](./Main/src/assets/screenshots/SS39.png )
+!["Screenshot40”](./Main/src/assets/screenshots/SS40.png )
 
 ## License
 This project is licensed under the MIT license.
